@@ -1,0 +1,20 @@
+<ion-view view-title="Ürün Ekle">
+  <ion-content class="padding">
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Ürün İsmi</span>
+        <input type="text" placeholder="Ürün Adı" ng-model="urun.UrunAdi">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Ürün Fiyatı</span>
+        <input type="text" placeholder="Ürün Fiyatı" ng-model="urun.UrunFiyati">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Ürün Stok</span>
+        <input type="text" placeholder="Stok Adedi" ng-model="urun.UrunStok">
+      </label>
+    </div>
+    <button class="button button-block button-assertive" ng-click="yeniurunekle(urun)">Ürün Ekle</button>
+    
+  </ion-content>
+</ion-view>

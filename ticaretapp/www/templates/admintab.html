@@ -1,0 +1,31 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+  <ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+
+    <!-- Kullanicilar Tab -->
+    <ion-tab title="Kullanıcılar" icon-off="ion-ios-people-outline" icon-on="ion-ios-people" href="#/admintab/ad_kullanicilar">
+      <ion-nav-view name="ad_kullanicilar"></ion-nav-view>
+    </ion-tab>
+
+
+     <!--Kullanici Sepeti Tab 
+    <ion-tab title="Kullanıcının Sepeti" icon-off="ion-ios-cart-outline" icon-on="ion-ios-cart" href="#/admintab/ad_kullanicisepeti">
+      <ion-nav-view name="ad_kullanicisepeti"></ion-nav-view>
+    </ion-tab>-->
+
+    <!-- Urunler Tab -->
+    <ion-tab title="Ürünler" icon-off="ion-ios-glasses-outline" icon-on="ion-ios-glasses" href="#/admintab/ad_urunler">
+      <ion-nav-view name="ad_urunler"></ion-nav-view>
+    </ion-tab>
+
+
+    <!-- Admin Profil Tab -->
+    <ion-tab title="Admin Profil" icon-off="ion-ios-person-outline" icon-on="ion-ios-person" href="#/admintab/adminprofil">
+      <ion-nav-view name="adminprofil"></ion-nav-view>
+    </ion-tab>
+
+  </ion-tabs>

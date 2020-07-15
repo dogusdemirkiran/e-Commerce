@@ -1,0 +1,18 @@
+<ion-view view-title="Kullanıcılar">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="x in kullanicilar" type="item-text-wrap" href="#/admintab/ad_kullanicilar/{{x.KullaniciID}}">
+
+        <h2>{{x.AdSoyad}}</h2>
+        <p>{{x.MailAdresi}}</p>
+        <p>{{x.Telefon}}</p>
+
+
+      </ion-item>
+    </ion-list>
+
+
+
+
+  </ion-content>
+</ion-view>

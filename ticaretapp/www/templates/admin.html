@@ -1,0 +1,15 @@
+<ion-view view-title="Admin Panel">
+  <ion-content class="padding">
+    <div class="list">
+      <label class="item item-input">
+        <span class="input-label">Mail Adresi</span>
+        <input type="text" ng-model="admin.mail">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Şifre</span>
+        <input type="password" ng-model="admin.sifre">
+      </label>
+    </div>
+    <button class="button button-block button-dark" color="warning" ng-click="admingirisyap(admin)">Admin Giriş</button>
+  </ion-content>
+</ion-view>

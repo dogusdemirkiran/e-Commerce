@@ -1,0 +1,30 @@
+<ion-view view-title="Ürün Ekle">
+  <ion-content>
+    <a class="button icon-left ion-chevron-left button-clear button-dark" ng-click="back()">Back</a>
+    <!--<ion-list>
+      <ion-item class="item-remove-animate item-icon-right">-->
+
+        <!--<div class="list">
+    <label class="item item-input item-select">
+      <div class="input-label">
+        Adet
+      </div>
+      <input type="number" ng-model="adet" />
+    </label>
+  </div>-->
+        <!--<h4>1 ADET</h4>-->
+        <div class="list">
+          <label class="item item-input item-floating-label">
+            <!--<span class="input-label">Şifre</span>-->
+            <input type="number" placeholder="Adet Giriniz" ng-model="adet">
+          </label>
+        </div>
+      <!--</ion-item>-->
+    <!--</ion-list>-->
+    <ion-list>
+      <button class="button button-block button-assertive" ng-click="sepeteekle(adet)">SEPETE EKLE</button>
+      
+    </ion-list>
+
+  </ion-content>
+</ion-view>
